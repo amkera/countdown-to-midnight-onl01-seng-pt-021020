@@ -8,6 +8,8 @@ def countdown(number)
   puts "HAPPY NEW YEAR!"
 end
 
+countdown(12)
+
 def countdown_with_sleep(integer)
   while integer > 0 
     sleep 1 
@@ -16,3 +18,5 @@ def countdown_with_sleep(integer)
     end
   puts "HAPPY NEW YEAR!"
 end
+
+countdown_with_sleep(12)
